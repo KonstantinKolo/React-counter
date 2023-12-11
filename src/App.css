@@ -29,6 +29,15 @@
   border-radius: 8%;
   color: white;
 }
+.multButton {
+  font-size: 60%;
+  position: relative;
+  top: 20vh;
+  margin-right: 5px;
+  background-color: orange;
+  border-radius: 8%;
+  color: white;
+}
 
 .counter {
   font-size: 120%;

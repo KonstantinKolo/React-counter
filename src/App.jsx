@@ -10,6 +10,9 @@ const App = () => {
   const handleClick2 = () => {
     setCounter(counter - 1);
   }
+  const handleClick3 = () => {
+    setCounter(counter * 2);
+  }
 
   return (
     <>
@@ -34,6 +37,11 @@ const App = () => {
             onClick={handleClick2}>
             Decrement
           </button>
+
+          <button
+          className='multButton'
+          onClick={handleClick3}
+          >Multiply</button>
         </div>
       </div>
     </>
